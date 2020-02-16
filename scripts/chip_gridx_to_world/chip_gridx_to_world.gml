@@ -1,0 +1,1 @@
+return x + 7 + argument0 * 20;

@@ -1,0 +1,131 @@
+{
+    "id": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "oPlayer",
+    "eventList": [
+        {
+            "id": "9a65d3a1-78e1-432a-9f96-90413f8ead90",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        },
+        {
+            "id": "2b2bce91-3b59-48fa-be12-b955ef50b4ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        },
+        {
+            "id": "34dd2ac3-33c9-4d32-85e5-ad5ac2ccd031",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        },
+        {
+            "id": "217a8e7c-a5d6-4ee2-af2b-b6b611573e58",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        },
+        {
+            "id": "76718900-4688-4106-99ab-27333f45da72",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        },
+        {
+            "id": "ee9b0b59-184e-4a9e-a3a7-6f2ebab41822",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "7c5b9b2e-69a9-41b9-a500-9a44ff8825de"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "f69a9514-2ed5-4f7e-a2f0-df9f1e2c5f5e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "invuln",
+            "varType": 3
+        },
+        {
+            "id": "b1e8aab1-1cbc-40b1-81a8-61a62ad0afd8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "291d9e12-79a6-4fdb-99a3-d7c7c6b268b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "maxHp",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "733d15a0-c9f7-4215-a9e4-d7d4f2c1696d",
+    "visible": true
+}

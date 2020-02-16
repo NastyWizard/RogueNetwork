@@ -1,0 +1,1 @@
+part_emitter_clear(blasterChargeParticleSystem, blasterChargeParticleEmitter);
