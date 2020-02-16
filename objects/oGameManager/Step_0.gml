@@ -35,6 +35,15 @@ if(numEnemies == 0)
 {
 	wipeSpd += .3;
 	wipePos+= wipeSpd;
-	if(wipePos > room_width + 100)
-		room_goto_next();
+	if(wipePos > room_width)
+	{
+		wipeSpd = -4 + wipeCnt;
+		wipeCnt++;
+		if(wipeCnt >= 4)
+			room_goto_next();
+	}
+} 
+else 
+{
+	wipePos = lerp(wipePos,0,0.4);
 }

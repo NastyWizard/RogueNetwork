@@ -13,5 +13,6 @@ ds_grid_set_region(global.gameGrid, 0, 0, 5, 2, -1);
 
 numEnemies = instance_number(oEnemy);
 
-wipePos = 0;
+wipePos = room_width;
 wipeSpd = 0;
+wipeCnt = 0;
